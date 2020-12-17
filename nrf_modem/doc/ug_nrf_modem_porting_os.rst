@@ -41,7 +41,7 @@ If Nordic Proprietary trace is enabled, the medium for where to forward the trac
 *Required actions*:
 
 * Initialize timers/threads.
-* Configure low priority libdemom scheduling IRQ (SoftIRQ).
+* Configure low priority libmodem scheduling IRQ (SoftIRQ).
 * Configure low priority trace scheduling IRQ (SoftIRQ).
 * Configure medium for trace (UART/SPI etc.).
 

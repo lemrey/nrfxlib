@@ -9,6 +9,12 @@ Changelog
 
 All notable changes to this project are documented in this file.
 
+nrf_modem 1.0.0
+***************
+
+* Added support for configuring the layout of the shared memory.
+* Added support for an external memory allocator.
+
 nrf_modem 0.8.99
 ****************
 
