@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: LicenseRef-Nordic-5-Clause
 #
 
+zephyr_include_directories(include)
+
 if(CONFIG_NRF_MODEM_LINK_BINARY)
 
   nrfxlib_calculate_lib_path(lib_path)
@@ -16,6 +18,5 @@ if(CONFIG_NRF_MODEM_LINK_BINARY)
   endif()
 
   zephyr_library_import(modem ${NRF_MODEM_PATH}/libmodem.a)
-  zephyr_include_directories(include)
 
 endif()
