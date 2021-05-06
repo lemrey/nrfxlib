@@ -22,7 +22,7 @@ extern "C" {
  * @{
  * Memory requirements for control structures.
  */
-#define NRF_MODEM_SHMEM_CTRL_SIZE 0x4e8
+#define NRF_MODEM_SHMEM_CTRL_SIZE 0x728
 /**@} */
 
 /**@defgroup nrf_modem_reserved_interrupts Reserved Interrupt and Priorities

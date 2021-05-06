@@ -16,4 +16,4 @@ endchoice
 # Do not edit.
 config NRF_MODEM_SHMEM_CTRL_SIZE
 	hex
-	default 0x4e8 # import
+	default 0x728 # import
